@@ -35,7 +35,7 @@ The output CSV file will contain the following columns for each difficult word d
 
 ## Example
 
-Here is the result for "./demo/the_little_prince.txt".
+Here is the result for `./demo/the_little_prince.txt`.
 
 ![](./demo/demo1.png)
 
