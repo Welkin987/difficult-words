@@ -44,8 +44,8 @@ Here is the result for `./demo/the_little_prince.txt`.
 Here is the whole file.
 [output_archive.csv](demo/output_archive.csv)
 
-Note that `rank=10,000,000` means that this word  is not in the database.
+Note that `rank=10,000,000` means that this word is not in the database.
 
-The database can be visited in [count_1w.txt](http://norvig.com/ngrams/count_1w.txt)
+The database can be visited from [count_1w.txt](http://norvig.com/ngrams/count_1w.txt)
 
 Feel free to explore and integrate Difficult-Words into your projects or workflows!
