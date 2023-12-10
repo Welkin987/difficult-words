@@ -7,7 +7,7 @@ REM Activate the virtual environment
 call %CURRENT_DIR%env\Scripts\activate
 
 REM Run the Python script
-python %CURRENT_DIR%src\main.py --threshold 13000 --input "./demo/As Light Rain Falls Without Reason.txt" --output "output.csv" --sort_by "count"
+python %CURRENT_DIR%src\main.py --threshold 10000 --input "./demo/the_little_prince.txt" --output "output.csv" --sort_by "rank"
 
 echo Done!
 pause

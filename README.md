@@ -17,7 +17,7 @@ Difficult-Words is a Python-based tool designed to detect and analyze difficult 
 You can modify the `run_in_venv.bat` script to customize the processing parameters according to your needs. Change the following line to specify your input text file, output CSV file, and other parameters:
 
 ```bash
-python %CURRENT_DIR%src\main.py --threshold 13000 --input "./demo/As Light Rain Falls Without Reason.txt" --output "output.csv" --sort_by "count"
+python %CURRENT_DIR%src\main.py --threshold 10000 --input "./demo/the_little_prince.txt" --output "output.csv" --sort_by "rank"
 ```
 
 Replace `--input`, `--output`, and other parameters with your desired file names and options.
@@ -35,7 +35,7 @@ The output CSV file will contain the following columns for each difficult word d
 
 ## Example
 
-Here is the result for "As Light Rain Falls Without Reason.txt", part of the lines from a well-known online game.
+Here is the result for "./demo/the_little_prince.txt".
 
 ![](./demo/demo1.png)
 
@@ -45,5 +45,7 @@ Here is the whole file.
 [output_archive.csv](demo/output_archive.csv)
 
 Note that `rank=10,000,000` means that this word  is not in the database.
+
+The database can be visited in [count_1w.txt](http://norvig.com/ngrams/count_1w.txt)
 
 Feel free to explore and integrate Difficult-Words into your projects or workflows!
